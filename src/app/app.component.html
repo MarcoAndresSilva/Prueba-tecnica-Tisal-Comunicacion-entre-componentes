@@ -1,0 +1,36 @@
+<div>
+  <div class="md:fixed md:inset-y-0 z-50 md:w-72 md:flex">
+    <div class="flex grow flex-col gap-y-5 overflow-y-auto border-r border-gray-200 bg-white px-6">
+      <div class="flex h-16 shrink-0 items-center font-bold text-rose-500">
+      Prueba Técnica Tisal
+      </div>
+      <nav class="flex flex-1 ">
+        <ul role="list" class="flex flex-1 flex-col gap-y-7">
+          <li>
+            <ul role="list" class="-mx-2 space-y-1">
+              <li>
+                <a routerLink="/home" routerLinkActive="active" class="group flex gap-x-3 rounded-md p-2 text-sm font-semibold leading-6 hover:bg-gray-50
+                text-gray-700 hover:text-rose-600">
+                  <mat-icon>home</mat-icon>
+                  Home
+                </a>
+              </li>
+              <li>
+                <a routerLink="/page2" routerLinkActive="active" class="group flex gap-x-3 rounded-md p-2 text-sm font-semibold leading-6 text-gray-700 hover:bg-gray-50 hover:text-rose-600">
+                 <mat-icon>settings</mat-icon>
+                 Page 2
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <main class="py-10 md:pl-72">
+    <div class="px-4 sm:px-6 lg:px-8">
+       <router-outlet/>
+    </div>
+  </main>
+</div>
