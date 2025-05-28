@@ -38,17 +38,3 @@ Puedes probar la aplicación en el siguiente enlace:
 [**Ver aplicación en vivo**](https://angular-shared-count-app.netlify.app)
 
 
-## Estructura del Proyecto 📁
-
-src/
-├── app/
-│ ├── components/
-│ │ ├── count/
-│ │ ├── child-1/
-│ │ ├── child-2/
-│ │ ├── page-2/
-│ ├── services/
-│ │ └── count.service.ts
-│ └── app.routes.ts
-
-
